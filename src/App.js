@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 
+
 function App() {
 
   const [saying, setSaying] = useState("오늘의 명언은 뭘까요?");
@@ -40,6 +41,7 @@ function App() {
     
   }
 
+  
   return (
     <div>
       <button onClick={word}>띵언 불러오기</button>
